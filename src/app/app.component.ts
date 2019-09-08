@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-unit-testing';
+
+  foo(myVar) {
+
+    if (myVar) {
+      return 'value1';
+    } else {
+      return 'value2';
+    }
+
+  }
 }
